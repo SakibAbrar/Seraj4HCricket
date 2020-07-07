@@ -1,5 +1,19 @@
+body {
+    /* background: url('../background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; */
+    background-color: rgb(204, 209, 209);
+}
+
+.navbar-custom { 
+    background-color: #152f4f;
+    color: white;
+} 
+
 .carousel-item {
-    height: 80vh;
+    height: 90vh;
     min-height: 350px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -9,18 +23,57 @@
 }
 
 .transbox {
-    display:inline-block;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.4);
     width: 70%;
     margin: 0 auto;
 }
 
 .zoom-div {
-    transition: transform .5s ease;
+    transition: transform 0.5s ease;
 }
 
 .zoom-div:hover {
     transform: scale(1.08);
+}
+
+.footer {
+    background: #152f4f;
+    color: white;
+
+    .links {
+        ul {
+            list-style-type: none;
+        }
+        li a {
+            color: white;
+            transition: color 0.2s;
+            &:hover {
+                text-decoration: none;
+                color: #4180cb;
+            }
+        }
+    }
+    .about-company {
+        i {
+            font-size: 25px;
+        }
+        a {
+            color: white;
+            transition: color 0.2s;
+            &:hover {
+                color: #4180cb;
+            }
+        }
+    }
+    .location {
+        i {
+            font-size: 18px;
+        }
+    }
+    .copyright p {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
 }
 
 /* .top-bar ul {
@@ -34,7 +87,7 @@
 }
 
 .top-bar {
-    background: #101c2e;
+    background: #152f4f;
     line-height: 30px;
     height: 30px;
 }
