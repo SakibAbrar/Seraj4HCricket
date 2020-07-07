@@ -15,11 +15,11 @@
     margin: 0 auto;
 }
 
-.zoom-image {
+.zoom-div {
     transition: transform .5s ease;
 }
 
-.zoom-image:hover {
+.zoom-div:hover {
     transform: scale(1.08);
 }
 
