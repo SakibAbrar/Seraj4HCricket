@@ -10,7 +10,26 @@ body {
 .navbar-custom { 
     background-color: #152f4f;
     color: white;
-} 
+}
+
+.nav-logo {
+    transition: transform 0.5s ease;
+}
+
+.nav-logo:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    border-radius: 5px;
+    transition: transform 0.5s ease;
+}
+
+.nav-link:hover {
+    background-color : grey;
+    color: white !important;
+    transform: scale(1.05);
+}
 
 .carousel-item {
     height: 90vh;
