@@ -8,8 +8,11 @@ body {
 }
 
 .navbar-custom {
-    background-color: #152f4f;
     color: white;
+    background-color: #152f4f;
+    border-bottom-left-radius:3%;
+    border-bottom-right-radius:3%;
+    /* background-image: linear-gradient(to right, #152f4f, #060c14); */
 }
 
 .nav-logo {
@@ -30,6 +33,7 @@ body {
     color: white !important;
     transform: scale(1.05);
 }
+
 
 .carousel-item {
     height: 90vh;
@@ -65,11 +69,13 @@ body {
             list-style-type: none;
         }
         li a {
-            color: white;
-            transition: color 0.2s;
+            border-radius: 2px;
+            transition: transform 0.5s ease;
             &:hover {
                 text-decoration: none;
-                color: #4180cb;
+                background-color: grey;
+                color: white !important;
+                transform: scale(1.05);
             }
         }
     }
