@@ -48,11 +48,11 @@ body {
 }
 
 .zoom-div {
-    transition: transform 0.5s ease;
+    transition: transform 0.8s ease;
 }
 
 .zoom-div:hover {
-    transform: scale(1.08);
+    transform: scale(1.05);
 }
 
 .footer {
