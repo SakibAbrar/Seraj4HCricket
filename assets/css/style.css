@@ -5,8 +5,8 @@ body {
 .navbar-custom {
     color: white;
     background-color: #152f4f;
-    border-bottom-left-radius:3%;
-    border-bottom-right-radius:3%;
+    border-bottom-left-radius:2%;
+    border-bottom-right-radius:2%;
     /* background-image: linear-gradient(to right, #152f4f, #060c14); */
 }
 
@@ -57,8 +57,7 @@ body {
 
 .footer {
     background: #152f4f;
-    color: white;
-    
+    color: white !important;
 }
 
 .footer .location i {
@@ -85,7 +84,7 @@ body {
 
 .footer li a {
     border-radius: 2px;
-    transition: transform 0.5s ease;
+    transition: 0.5s;
 }
 
 .footer li a:hover {
